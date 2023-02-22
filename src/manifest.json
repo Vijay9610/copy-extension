@@ -1,0 +1,17 @@
+{
+    "name":"Copy Extension",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Extension to copy webpage content",
+    "author": "Vijay Meena",
+    "permissions": [
+        "contextMenus",
+        "clipboardRead",
+        "clipboardWrite",
+        "activeTab"
+    ],
+    "background": {
+        "scripts": ["script.js"],
+        "persistent": false
+    }
+}
